@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	align-items: center;
+	position: relative;
+	&__logo {
+		position: absolute;
+		height: 24px;
+		width: 24px;
+		z-index: 10;
+		left: 11px;
+	}
+
+	&__input {
+		height: 45px;
+		box-sizing: border-box;
+		background-color: var(--white);
+		border-radius: 5px;
+		border: 1px solid var(--border-input);
+		outline: 0;
+		width: 100%;
+		padding-left: 46px;
+		font-size: 14px;
+		line-height: 21px;
+
+		::placeholder {
+			color: var(--color-input);
+		}
+	}
+}

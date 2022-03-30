@@ -1,0 +1,29 @@
+:root {
+  /* tokens */
+  --primary: #FF9F1C;
+  --secondary: #FF4040;
+  --tertiary: #2EC4B6;
+  --dark: #0A1014;
+  --grey: #182329;
+  --mid-grey: #353F4C;
+  --light-grey: #7A8C99;
+  --white: #FFFFFF;
+  --background: #202020;
+  --border-input: #CAD4D9;
+  --color-input: #8E8E8E;
+
+  /* texts colors */
+  --primary-text: var(--white);
+  --secondary-text: var(--light-grey);
+  --active-text: var(--tertiary);
+  --negative-text: var(--secondary);
+  --highlight-text: var(--primary);
+  --disabled-text: var(--mid-grey);
+}
+
+body {
+  margin: 0;
+  font-family: Poppins;
+  padding: 0;
+  box-sizing: border-box;
+}

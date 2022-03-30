@@ -1,0 +1,34 @@
+.card {
+    height: 370px;
+    width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+
+    &__image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        color: var(--white);
+    }
+
+    @media (min-width: 320px) {
+        height: 159.04px;
+        width: 107.46px;
+    }
+
+    @media (min-width: 480px) {
+        height: 198.8px;
+        width: 134.32px;
+    }
+
+    @media (min-width: 768px) {
+        height: 248.5px;
+        width: 167.9px;
+    }
+
+    @media (min-width: 1024px) {
+        height: 370px;
+        width: 250px;
+    }
+}

@@ -1,0 +1,192 @@
+.detail {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+
+    &__loading {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__content {
+        display: flex;
+        flex: 1;
+        align-items: flex-start;
+        margin-top: 144px;
+        flex-wrap: nowrap;
+        padding-left: 328px;
+        padding-right: 328px;
+
+        &__image {
+            width: 377px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-right: 41px;
+        }
+
+        &__details {
+            flex-direction: column;
+            width: min-content;
+            flex: 1;
+
+            &__runtime {
+                margin-top: 20px;
+            }
+
+            &__imdb {
+                display: flex;
+                margin-top: 20px;
+                align-items: center;
+
+                &__icon {
+                    width: 64px;
+                }
+
+                &__rating_container {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+
+                &__rating {
+                    margin-left: 11px;
+                    font-weight: 500;
+                }
+            }
+
+            &__overview {
+                display: flex;
+                margin-top: 24px;
+                flex-direction: column;
+
+                &__title {
+                    margin-bottom: 6px;
+                }
+            }
+
+            &__list {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 49px;
+                margin-top: 49px;
+            }
+
+            &__itemList {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+    &__comments_section {
+        padding-left: 328px;
+        padding-right: 328px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        &__coment {
+            display: flex;
+            flex-direction: column;
+
+            &__title {
+                margin-bottom: 6px;
+            }
+        }
+    }
+
+    @media (min-width: 320px) {
+        &__content {
+            padding-left: 16px;
+            padding-right: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 48px;
+
+            &__image {
+                margin-bottom: 16px;
+            }
+
+            &__details {
+                &__list {
+                    align-items: flex-start;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 480px) {
+        &__content {
+            padding-left: 16px;
+            padding-right: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 60px;
+
+            &__image {
+                margin-bottom: 16px;
+            }
+
+            &__details {
+                &__list {
+                    align-items: flex-start;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        &__content {
+            padding-left: 56px;
+            padding-right: 56px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 78px;
+
+            &__image {
+                margin-bottom: 24px;
+            }
+
+            &__details {
+                &__list {
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 1024px) {
+        &__content {
+            padding-left: 140px;
+            padding-right: 140px;
+            flex-wrap: nowrap;
+
+            &__details {
+                &__list {
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 1280px) {
+        &__content {
+            padding-left: 272px;
+            padding-right: 272px;
+            flex-wrap: nowrap;
+
+            &__details {
+                &__list {
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+}
