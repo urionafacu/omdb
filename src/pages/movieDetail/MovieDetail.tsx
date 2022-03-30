@@ -38,6 +38,7 @@ const MovieDetail = () => {
 					alt='movie image'
 					className={styles.detail__content__image}
 					loading='lazy'
+					id='movieImage'
 				/>
 				<section className={styles.detail__content__details}>
 					<Text variant='titleBig'>{data?.Title}</Text>
@@ -136,7 +137,7 @@ const MovieDetail = () => {
 
 			<section className={styles.detail__comments_section}>
 				{dottedMovies?.[data?.imdbID!]?.length > 0 && dottedMovies[data?.imdbID!].map((c) => (
-					<div className={styles.detail__comments_section__coment}>
+					<div className={styles.detail__comments_section__coment} key={c.movieId + c.date}>
 						<Text
 							variant='bodyBig'
 							color='secondary'

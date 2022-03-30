@@ -17,6 +17,7 @@ const Home = () => {
 				<Input
 					placeholder='Search movies'
 					onChange={(e) => setSearch(e.target.value)}
+					id='input'
 				/>
 			</section>
 

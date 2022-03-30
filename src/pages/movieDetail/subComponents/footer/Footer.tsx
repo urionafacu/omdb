@@ -36,11 +36,13 @@ const Footer = ({ movieId }: FooterProps) => {
 				placeholder='Add your comments here'
 				onChange={(e) => setCommentary(e.target.value)}
 				value={commentary}
+				id='textArea'
 			/>
 
 			<button
 				className={styles.footer__button}
 				onClick={handlePost}
+				id='postCommentaryButton'
 			>
 				Post
 			</button>

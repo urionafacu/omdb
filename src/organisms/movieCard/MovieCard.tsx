@@ -13,6 +13,7 @@ const MovieCard = ({ Poster, imdbID }: MovieCardProps) => {
 		<div
 			className={styles.card}
 			onClick={() => navigate(`/detail/${imdbID}`)}
+			id="movieCard"
 		>
 			<img
 				src={Poster}

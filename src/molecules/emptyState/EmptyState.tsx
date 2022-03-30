@@ -4,7 +4,7 @@ import styles from './emptyState.module.scss';
 
 const EmptyState = () => {
 	return (
-		<section className={styles.empty}>
+		<section className={styles.empty} id='emptyState'>
 			<img
 				src={EmptyImage}
 				alt='empty'

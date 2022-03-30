@@ -1,7 +1,7 @@
 import styles from './spinner.module.scss';
 
 const Spinner = () => {
-	return <div className={styles.spinner} />;
+	return <div id='spinner' className={styles.spinner} />;
 };
 
 export default Spinner;
