@@ -120,6 +120,11 @@
                 }
             }
         }
+
+        &__comments_section {
+            padding-left: 16px;
+            padding-right: 16px;
+        }
     }
 
     @media (min-width: 480px) {
@@ -139,6 +144,11 @@
                     align-items: flex-start;
                 }
             }
+        }
+
+        &__comments_section {
+            padding-left: 16px;
+            padding-right: 16px;
         }
     }
 
@@ -160,6 +170,11 @@
                 }
             }
         }
+
+        &__comments_section {
+            padding-left: 56px;
+            padding-right: 56px;
+        }
     }
 
     @media (min-width: 1024px) {
@@ -174,6 +189,11 @@
                 }
             }
         }
+
+        &__comments_section {
+            padding-left: 140px;
+            padding-right: 140px;
+        }
     }
 
     @media (min-width: 1280px) {
@@ -187,6 +207,11 @@
                     justify-content: flex-start;
                 }
             }
+        }
+
+        &__comments_section {
+            padding-left: 272px;
+            padding-right: 272px;
         }
     }
 }
