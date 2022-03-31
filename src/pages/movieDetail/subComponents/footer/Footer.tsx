@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useStore } from '../../../../particles/clientStore';
-import { Text } from '../../../../atoms';
+import { useStore } from 'particles/clientStore';
+import { Text } from 'atoms';
 import styles from './footer.module.scss';
 import { FooterProps } from './footer.types';
 

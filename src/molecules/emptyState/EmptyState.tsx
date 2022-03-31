@@ -1,5 +1,5 @@
-import { Text } from '../../atoms';
-import EmptyImage from '../../assets/empty.png';
+import { Text } from 'atoms';
+import EmptyImage from 'assets/empty.png';
 import styles from './emptyState.module.scss';
 
 const EmptyState = () => {

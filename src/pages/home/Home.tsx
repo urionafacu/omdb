@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import styles from './home.module.scss';
-import { Spinner } from '../../atoms';
-import { Navbar, Input, EmptyState } from '../../molecules';
-import { MovieCard } from '../../organisms';
-import { useMovies } from '../../particles/serverStore/queries';
-import { ResponseEnum } from '../../types/movie.types';
+import { Spinner } from 'atoms';
+import { Navbar, Input, EmptyState } from 'molecules';
+import { MovieCard } from 'organisms';
+import { useMovies } from 'particles/serverStore/queries';
+import { ResponseEnum } from 'types/movie.types';
 
 const Home = () => {
 	const [search, setSearch] = useState('');

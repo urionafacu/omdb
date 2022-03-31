@@ -4,6 +4,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "baseUrl": "./src",
+    "allowSyntheticDefaultImports": true
   },
   "include": ["vite.config.ts"]
 }

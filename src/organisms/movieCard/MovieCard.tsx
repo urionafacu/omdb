@@ -1,4 +1,4 @@
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import styles from './movieCard.module.scss';
 import { MovieCardProps } from './movieCard.types';
 
