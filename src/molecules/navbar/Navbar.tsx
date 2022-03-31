@@ -1,6 +1,6 @@
 import styles from './navbar.module.scss';
-import Logo from '../../assets/logo.png';
-import { Text } from '../../atoms';
+import Logo from 'assets/logo.png';
+import { Text } from 'atoms';
 import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {

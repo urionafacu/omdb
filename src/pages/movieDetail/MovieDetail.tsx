@@ -1,13 +1,13 @@
-import { Spinner, Text } from '../../atoms';
-import { Navbar } from '../../molecules';
-import { useSpecificMovie } from '../../particles/serverStore/queries';
+import { Spinner, Text } from 'atoms';
+import { Navbar } from 'molecules';
+import { useSpecificMovie } from 'particles/serverStore/queries';
 import styles from './movieDetail.module.scss';
-import IMDBIcon from '../../assets/imdbIcon.png';
-import useActors from '../../hooks/useActors';
-import useWriters from '../../hooks/useWriters';
-import useGenres from '../../hooks/useGenres';
+import IMDBIcon from 'assets/imdbIcon.png';
+import useActors from 'hooks/useActors';
+import useWriters from 'hooks/useWriters';
+import useGenres from 'hooks/useGenres';
 import { Footer } from './subComponents';
-import { useStore } from '../../particles/clientStore';
+import { useStore } from 'particles/clientStore';
 
 const MovieDetail = () => {
 	const { data, isLoading, isError } = useSpecificMovie();

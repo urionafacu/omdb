@@ -1,6 +1,6 @@
-import Providers from './particles/providers/Providers';
+import Providers from 'particles/providers/Providers';
 import { Route, Routes } from 'react-router-dom';
-import { Home, MovieDetail } from './pages';
+import { Home, MovieDetail } from 'pages';
 
 function App() {
   return (

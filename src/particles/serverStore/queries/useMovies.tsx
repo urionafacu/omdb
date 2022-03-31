@@ -1,7 +1,7 @@
 import { useQuery } from 'react-query';
-import { getMoviesForTitle } from '../../requests';
-import { PaginatedMovies } from '../../../types/movie.types';
-import useDebounce from '../../../hooks/useDebounce';
+import { getMoviesForTitle } from 'particles/requests';
+import { PaginatedMovies } from 'types/movie.types';
+import useDebounce from 'hooks/useDebounce';
 
 const useMovies = (title: string) => {
 	const value = useDebounce(title, 800);

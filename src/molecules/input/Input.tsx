@@ -1,4 +1,4 @@
-import SearchLogo from '../../assets/search.png';
+import SearchLogo from 'assets/search.png';
 import { InputProps } from './input.types';
 import styles from './input.module.scss';
 
