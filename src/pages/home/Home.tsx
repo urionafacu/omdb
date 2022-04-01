@@ -5,10 +5,16 @@ import { Navbar, Input, EmptyState } from 'molecules';
 import { MovieCard } from 'organisms';
 import { useMovies } from 'particles/serverStore/queries';
 import { ResponseEnum } from 'types/movie.types';
+import order from 'hooks/useOrder';
 
 const Home = () => {
 	const [search, setSearch] = useState('');
 	const { data, isLoading, isSuccess } = useMovies(search);
+
+
+	order(data);
+
+
 
 	return (
 		<main className={styles.home}>
